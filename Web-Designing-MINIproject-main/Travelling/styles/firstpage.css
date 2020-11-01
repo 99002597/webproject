@@ -1,0 +1,63 @@
+.loginbox{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 350x;
+    height: 420px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+    padding:80px 40px;
+    border-radius: 10px;
+
+}
+ 
+.loginbox input{
+    
+  width: 100%;
+  padding: 12px 40px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.loginbox #createaccount{
+
+width: 200px;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: greenyellow;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+.loginbox #login{
+
+  width: 100%;
+    padding: 12px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: skyblue;
+    font-weight: bold;
+    font-size: 18px;
+  }
+a{
+  text-decoration: none;
+  top:50%;
+  border-left:50%;
+  color: #ccc;
+}
+a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+

@@ -1,0 +1,103 @@
+
+.wrapper{
+    width: 100%;
+    height:100%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.taskbar{
+    background: khaki;
+    width: 100%;
+    height: 60px;
+    background: khaki;
+    justify-content: space-between;
+    
+    display: flex;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.nav-bar-right img,
+.nav-bar-right .name{
+    width: 45px;
+    border-radius: 20px;
+    float:left;
+}
+    
+
+.nav-bar-right{
+    display: flex;
+}
+
+.nav-bar-right .icon{
+    cursor: pointer;
+}
+.nav-bar-right .propic{
+    position: relative;
+    float: left;
+}
+ 
+.nav-bar-left .trial{
+    font-size: 30px;
+    font-family: 'Katibeh', cursive;
+    margin: 10px;
+
+}
+
+.video{
+    margin:0;
+}
+
+.explore #right img{
+    width: 350px;
+    height: 200px;
+}
+.explore{
+    font-family: 'Playfair Display', serif;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: expanded;
+    margin:20px;
+}
+ .explore ul{
+     list-style-type: none;
+ }
+.explore #right li{
+     float:left;
+     margin: 10px ;
+     padding: 10px 10px 10px 10px;
+     
+ }
+
+ #right a{
+     display: block;
+     align-items: center;
+     font-family: 'Oswald', sans-serif;
+ }
+
+ .explore #invention-and-discovery img{
+    width: 350px;
+    height: 200px;    
+ }
+ .explore #invention-and-discovery li{
+    float:left;
+    margin: 10px ;
+    padding: 0 100px;
+    align-items: center;
+    
+}
+
+#invention-and-discovery a{
+    display: block;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
